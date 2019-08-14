@@ -1,0 +1,99 @@
+body {
+    background-color: #FFFAF9
+}
+
+#main-header {
+height: 100px;
+background-color: #FFFFFF;
+display:flex;
+justify-content: space-between;
+font-family: 'Poiret One', cursive;
+}
+
+/* #container
+{
+display:flex;
+justify-content: space-between;
+} */
+
+#menu
+{
+    width: 396px;
+    display:flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 5px;
+    font-size: 20px;
+    color: #8E8E93;
+}
+
+#logo
+{
+  font-size: 60px;
+  color: #8E8E93;
+  padding-bottom: 10px;
+  display:flex;
+  align-items: flex-end;
+}
+
+.hero {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Poiret One', cursive;
+    color: #8E8E93;
+    padding: 80px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  color: #8E8E93;
+  padding-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: 25px;
+    color: #8E8E93;
+    line-height: 60px;
+  }
+
+.projectbox {
+    height: 900px;
+    background-color: #FFFFFF;
+    margin-bottom: 80px;
+}
+
+.image-swap {
+    position: relative;
+}
+
+.prototype {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity .2s linear;
+}
+.image-swap:hover .prototype {
+    opacity: 1;
+}
+
+
+p {
+    font-size: 16px;
+    color: #8E8E93;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 20px;
+}
+
+.project-text {
+    font-family: 'Poiret One', cursive;
+    font-size: 22px;
+    color: #8E8E93;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+.project-text h3 {
+    padding-bottom: 20px;
+}

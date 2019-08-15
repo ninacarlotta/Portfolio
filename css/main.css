@@ -282,12 +282,15 @@ p {
     padding: 60px 32px 0 32px; }
 
   .readmorebutton {
-    width: 200px; }
+    width: 240px; }
 
   .project-text {
     padding: 30px 32px 0 32px; }
 
   p {
-    font-size: 14px; } }
+    font-size: 14px; }
+
+  .arrowwrapper {
+    height: 160px; } }
 
 /*# sourceMappingURL=main.css.map */

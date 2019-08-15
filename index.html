@@ -7,35 +7,73 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
     <title>Nina Carlotta UX/UI design</title>
     <script src="https://kit.fontawesome.com/729a9e5921.js"></script>
+    <script src="./js/main.js"></script>
     </head>
 
-    <header id="main-header">
+    <header class="main-header">
+            <div class="main-header__wrapper">
+              <div class="brand">
+                <img class="logoicon" src="./img/ninalogo.svg" alt="Nina">
+                <!-- <h1>NC</h1> -->
+              </div>
+              <nav class="main-nav">
+                <ul class="menu main-nav__ul">
+                  <li class="main-nav__item">About</li>
+                  <li class="main-nav__item">Projects</li>
+                  <li class="main-nav__item">Contact</li>
+                </ul>
+              </nav>
+              <!-- mobile nav -->
+              <div class="mobile-menu-button">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </header>
+
+
+<!-- <header id="main-header">
+    <div class="main-header__wrapper">
         <div id="logo">
-                <h1>Nina Carlotta</h1>
+                <img id="logoicon" src="/img/ninalogo.svg" alt="Nina">
+                <h1>NC</h1>
         </div>
-        <nav id="container">
-            <ul id="menu">
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact me</li>
+        <nav class="navcontainer">
+            <ul class="menu navcontainer__ul">
+                <li class="navcontainer__item">About</li>
+                <li class="navcontainer__item">Projects</li>
+                <li class="navcontainer__item">Contact me</li>
             </ul>
         </nav>
-    </header>
+
+        <div class="mobile-menu-button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</header> -->
 
     <section class="hero">
         <div class="main-text">
-            <h1>Designing with a heart. </h1>
-            <h2>My name is Nina and I'm a UX/UI designer. </h2>
-            <h2>I'm passionate about creating thoughtful products that users love. <i class="far fa-heart"></i>
+            <h1>Nina Carlotta </h1>
+            <h2>UX/UI designer</h2>
+            <h2>Passionate about creating thoughtful products that users love <span id="heart"><i class="far fa-heart"></i></span>
             </h2>
+        </div>
+        <div class="arrowwrapper" >
+        <a href="#projects"><img class="downarrow animated bounce " src="/img/noun_down arrow_719904.svg" alt="see more">
+        </a>
         </div>
     </section>
 
     <section class="projectbox">
-        <div class="wellnessphoto">
-            <a class="readmorebutton" href="">READ MORE</a>
+        <div class="wellnessphoto" id="projects">
+            <a class="readmorebutton label" href=""><span class="label"></span></a>
         </div>
         <div class="project-text">
             <h3>Case study: Wynx Wellness</h3>
@@ -45,7 +83,7 @@
 
     <section class="projectbox">
             <div class="trendsphoto">
-                <a class="readmorebutton" href="">READ MORE</a>
+                <a class="readmorebutton label" href=""><span class="label"></span></a>
             </div>
             <div class="project-text">
                 <h3>Case study: Trendstile</h3>
@@ -55,45 +93,13 @@
 
     <section class="projectbox">
             <div class="finalprojectphoto">
-                <a class="readmorebutton" href="">READ MORE</a>
+                <a class="readmorebutton label" href=""><span class="label"></span></a>
             </div>
             <div class="project-text">
-                <h3>Case study: Wynx Wellness</h3>
+                <h3>Case study: Final project</h3>
                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
             </div>
     </section>
-
-    <!-- <section class="projectbox">
-            <div class="image-swap">
-                <div>
-                    <img src="/img/phototrends.png" alt="project photo">
-                </div>
-                <div class="prototype">
-                    <img src="/img/Hover.svg" alt="prototype">
-                </div>
-            </div>
-            <div class="project-text">
-                <h3>Case study: Trendstile</h3>
-               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-            </div>
-        </section>
-
-        <section class="projectbox">
-                <div class="image-swap">
-                    <div>
-                        <img src="/img/wellnessphoto.png" alt="project photo">
-                    </div>
-                    <div class="prototype">
-                        <img src="/img/Hover.svg" alt="prototype">
-                    </div>
-                </div>
-                <div class="project-text">
-                    <h3>Case study: Final project</h3>
-                   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                </div>
-        </section> -->
-
-
 
     <footer id="footer">
        <ul id="footer-links">
@@ -103,5 +109,6 @@
        </ul>
          
     </footer>
+
 
 </html>

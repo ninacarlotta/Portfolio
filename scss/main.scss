@@ -25,16 +25,17 @@ body {
     color: #F7CCC8;
 }
 
-#logo
-{
-  font-size: 60px;
-  color: #8E8E93;
-  padding-bottom: 10px;
-  display:flex;
-  align-items: flex-end;
-}
+// #logo
+// {
+//   font-size: 60px;
+//   color: #8E8E93;
+//   padding-bottom: 10px;
+//   display:flex;
+//   align-items: flex-end;
+// }
 
 .logoicon {
+    // position: fixed;
     width: 61px;
     height: 61px;
     padding-left: 0px;
@@ -201,7 +202,7 @@ p {
 .downarrow {
     // display: flex;
     // margin-top: 40vh;
-   
+    cursor: pointer;
 }
 
 .arrowwrapper {
@@ -411,3 +412,14 @@ font-family: 'Poiret One', cursive;
             height: 160px;
         }
 }
+
+.nextlink {
+    padding-top: 2vh;
+    text-align: center;
+    text-decoration: none;
+    color: #F7CCC8;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+

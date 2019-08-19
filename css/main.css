@@ -25,7 +25,52 @@ body {
   font-family: 'Poiret One', cursive;
   color: #8E8E93;
   padding: 80px 80px 0 80px;
-  justify-content: center; }
+  justify-content: center;
+  position: relative; }
+
+.shape:hover {
+  transform: scale(1.4); }
+
+.aquacircle {
+  position: absolute;
+  right: 30vw;
+  bottom: 70vh;
+  transition: all 1.3s; }
+
+.bigtrianglelight {
+  position: absolute;
+  opacity: .7;
+  right: 10vw;
+  bottom: 50vh;
+  transition: all 1.3s; }
+
+.bigtriangledark {
+  position: absolute;
+  opacity: .7;
+  right: 27vw;
+  bottom: 30vh;
+  transition: all 1.3s; }
+
+.smalltrianglelight {
+  position: absolute;
+  opacity: .7;
+  right: 17vw;
+  bottom: 15vh;
+  transition: all 1.3s; }
+
+.smalltriangledark {
+  position: absolute;
+  opacity: .7;
+  left: 5vw;
+  top: 60vh;
+  transition: all 1.3s; }
+
+.smallrectangleyellow {
+  position: absolute;
+  opacity: .8;
+  left: 14vw;
+  top: 50vh;
+  transition: all 1.3s; }
 
 .hero h1 {
   font-size: 50px;
@@ -123,9 +168,9 @@ p {
   font-size: 22px;
   text-decoration: none;
   letter-spacing: 4px;
-  color: #8E8E93;
+  color: #ffffff;
   border-radius: 4px;
-  border: 2px solid #8E8E93;
+  border: 2px solid #ffffff;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -289,7 +334,7 @@ p {
   .arrowwrapper {
     height: 160px; } }
 .nextlink {
-  padding-top: 2vh;
+  padding-top: 1vh;
   text-align: center;
   text-decoration: none;
   color: #F7CCC8;

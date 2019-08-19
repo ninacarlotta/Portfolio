@@ -9,11 +9,16 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     // scroll effects
     navigation.addEventListener('click', function (e) {
+        console.log('click')
         if (e.target.classList[0].includes('main-nav__item')) {
             var classes = e.target.classList
             var item = classes[1].split('-')[0]
             var section = document.querySelector('#' + item)
             section.scrollIntoView({behavior: "smooth"})
+        }
+        if (navigation.classList.contains('visible')) {
+            navigation.classList.remove('visible')
+            mobileMenuButton.classList.remove('active')
         }
     })
 
@@ -38,6 +43,5 @@ document.addEventListener("DOMContentLoaded", function (event) {
         var project3 = document.querySelector('#project3')
         project3.scrollIntoView({behavior: "smooth"})
     })
-
 
 })
